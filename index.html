@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Silverius Rhiti Bare</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white shadow">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <h1 class="text-xl font-bold">SALAM HARMONI</h1>
+
+            <div class="flex gap-5">
+                <a href="#home" class="hover:text-blue-600">Home</a>
+                <a href="#tentang" class="hover:text-blue-600">Tentang</a>
+                <a href="#javascript" class="hover:text-blue-600">JavaScript</a>
+                <a href="#kontak" class="hover:text-blue-600">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- LANDING PAGE -->
+    <section id="home" class="min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-5xl w-full grid md:grid-cols-2 gap-10 items-center">
+
+
+            <div>
+                <p class="text-blue-600 font-semibold mb-2">
+                    HALO, SAYA
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    SILVERIUS RHITI BARE
+                </h2>
+
+                <p class="text-lg text-gray-600 mb-2">
+                    Mahasiswa Universitas Pendidikan Ganesha
+                </p>
+
+                <p class="text-lg text-gray-600 mb-6">
+                    Jurusan Teknik Informatika
+                </p>
+
+                <a
+                    href="#tentang"
+                    class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition"
+                >
+                    Tentang Saya
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- INFORMASI UMUM -->
+    <section id="tentang" class="py-20 px-6 bg-white">
+        <div class="max-w-4xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-10">
+                Informasi Umum
+            </h2>
+
+            <div class="text-gray-600 leading-relaxed space-y-4">
+
+                <p>
+                    Halo, saya <b class="text-gray-800">Silverius Rhiti Bare</b>.
+                    Saya berasal dari <b class="text-gray-800">NTT
+                    (Nusa Tenggara Timur)</b> dan saat ini saya merupakan
+                    mahasiswa <b class="text-gray-800">Universitas Pendidikan
+                    Ganesha (Undiksha)</b>, Jurusan
+                    <b class="text-gray-800">Teknik Informatika</b>.
+                </p>
+
+                <p>
+                    Saya memiliki ketertarikan pada bidang Teknologi Informasi,
+                    khususnya pengembangan website, pemrograman, dan teknologi
+                    digital. Saat ini saya terus belajar dan mengembangkan
+                    kemampuan saya melalui berbagai tugas dan proyek selama
+                    perkuliahan.
+                </p>
+
+            </div>
+
+
+            <!-- RIWAYAT PENDIDIKAN -->
+            <div class="mt-12">
+
+                <h3 class="text-2xl font-bold mb-6">
+                    Riwayat Pendidikan
+                </h3>
+
+                <div class="space-y-5">
+
+                    <div class="border-l-4 border-blue-600 pl-5">
+                        <h4 class="font-bold text-lg">
+                            SDK Panamata
+                        </h4>
+                        <p class="text-gray-600">
+                            Sekolah Dasar
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-blue-600 pl-5">
+                        <h4 class="font-bold text-lg">
+                            SMPK Wawonato
+                        </h4>
+                        <p class="text-gray-600">
+                            Sekolah Menengah Pertama
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-blue-600 pl-5">
+                        <h4 class="font-bold text-lg">
+                            SMAN 1 Ende
+                        </h4>
+                        <p class="text-gray-600">
+                            Sekolah Menengah Atas
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-blue-600 pl-5">
+                        <h4 class="font-bold text-lg">
+                            Universitas Pendidikan Ganesha
+                        </h4>
+                        <p class="text-gray-600">
+                            Jurusan Teknik Informatika — Mahasiswa
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- TUGAS JAVASCRIPT -->
+    <section id="javascript" class="py-20 px-6 bg-gray-100">
+
+        <div class="max-w-xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-3">
+                Tugas JavaScript
+            </h2>
+
+            <p class="text-center text-gray-600 mb-8">
+                Kalkulator Nilai Mahasiswa
+            </p>
+
+            <div class="bg-white p-6 rounded-2xl shadow">
+
+                <label class="block mb-2 font-medium">
+                    Nama Mahasiswa
+                </label>
+
+                <input
+                    type="text"
+                    id="nama"
+                    placeholder="Masukkan nama"
+                    class="w-full border rounded-lg px-4 py-3 mb-4
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <label class="block mb-2 font-medium">
+                    Nilai Tugas
+                </label>
+
+                <input
+                    type="number"
+                    id="tugas"
+                    placeholder="0 - 100"
+                    class="w-full border rounded-lg px-4 py-3 mb-4
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <label class="block mb-2 font-medium">
+                    Nilai UTS
+                </label>
+
+                <input
+                    type="number"
+                    id="uts"
+                    placeholder="0 - 100"
+                    class="w-full border rounded-lg px-4 py-3 mb-4
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <label class="block mb-2 font-medium">
+                    Nilai UAS
+                </label>
+
+                <input
+                    type="number"
+                    id="uas"
+                    placeholder="0 - 100"
+                    class="w-full border rounded-lg px-4 py-3 mb-5
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <button
+                    onclick="hitungNilai()"
+                    class="w-full bg-blue-600 text-white py-3 rounded-lg
+                    hover:bg-blue-700 transition"
+                >
+                    Hitung Nilai
+                </button>
+
+                <div
+                    id="hasil"
+                    class="mt-5 p-4 bg-gray-100 rounded-lg hidden"
+                ></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-20 px-6 bg-white">
+
+        <div class="max-w-xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-8">
+                Kontak Saya
+            </h2>
+
+            <form onsubmit="kirimPesan(event)" class="space-y-4">
+
+                <input
+                    type="text"
+                    placeholder="Nama"
+                    required
+                    class="w-full border rounded-lg px-4 py-3
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <input
+                    type="email"
+                    placeholder="Email"
+                    required
+                    class="w-full border rounded-lg px-4 py-3
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+
+                <textarea
+                    placeholder="Pesan"
+                    rows="5"
+                    required
+                    class="w-full border rounded-lg px-4 py-3
+                    focus:outline-none focus:ring-2 focus:ring-blue-500"
+                ></textarea>
+
+                <button
+                    type="submit"
+                    class="w-full bg-black text-white py-3 rounded-lg
+                    hover:bg-gray-700 transition"
+                >
+                    Kirim Pesan
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-white text-center py-5">
+        <p>
+            © 2026 Silverius Rhiti Bare | Teknik Informatika
+        </p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function hitungNilai() {
+
+            let nama = document.getElementById("nama").value;
+            let tugas = Number(document.getElementById("tugas").value);
+            let uts = Number(document.getElementById("uts").value);
+            let uas = Number(document.getElementById("uas").value);
+
+            let nilaiAkhir =
+                (tugas * 0.30) +
+                (uts * 0.30) +
+                (uas * 0.40);
+
+            let grade;
+
+            if (nilaiAkhir >= 85) {
+                grade = "A";
+            } else if (nilaiAkhir >= 75) {
+                grade = "B";
+            } else if (nilaiAkhir >= 65) {
+                grade = "C";
+            } else if (nilaiAkhir >= 50) {
+                grade = "D";
+            } else {
+                grade = "E";
+            }
+
+            let hasil = document.getElementById("hasil");
+
+            hasil.classList.remove("hidden");
+
+            hasil.innerHTML = `
+                <h3 class="font-bold text-lg mb-2">
+                    Hasil Nilai
+                </h3>
+
+                <p>Nama: <b>${nama}</b></p>
+
+                <p>
+                    Nilai Akhir:
+                    <b>${nilaiAkhir.toFixed(2)}</b>
+                </p>
+
+                <p>Grade: <b>${grade}</b></p>
+            `;
+        }
+
+
+        function kirimPesan(event) {
+
+            event.preventDefault();
+
+            alert("Pesan berhasil dikirim!");
+
+        }
+
+    </script>
+
+</body>
+</html>
+```
